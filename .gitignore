@@ -1,0 +1,34 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+target/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+
+
+
+# Application configuration containing local secrets
+application-local.properties
+application-secret.properties
+
+# Build files
+build/
+
+
+# Logs
+
+# OS files
+.DS_Store
+Thumbs.db
